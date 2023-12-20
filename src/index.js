@@ -1,8 +1,10 @@
 import initialPage from "./initial-page";
 import homeElements from "./home.js";
 import { footerFunc } from "./initial-page";
-import "./style.css";
-
+import menuPage from "./menu.js";
+import "./home.css";
+import "./menu.css";
 initialPage();
-homeElements();
+// homeElements();
+menuPage();
 footerFunc();
